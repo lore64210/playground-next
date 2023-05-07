@@ -1,0 +1,20 @@
+.canvasContainer {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.canvas {
+    background-color: white;
+}
+
+.clearButton {
+    margin: 2em;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 1em;
+    border: none;
+    padding: 1em;
+}
