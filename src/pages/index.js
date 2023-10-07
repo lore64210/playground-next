@@ -30,6 +30,7 @@ export default function Home() {
                 </a>
                 <a href="/linearRegression">Linear Regression</a>
                 <a href="/doodle">Doodle</a>
+                <a href="/terrain">Terrain</a>
                 <a href="/test">Test</a>
             </main>
         </>

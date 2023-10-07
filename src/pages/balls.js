@@ -1,7 +1,7 @@
 import P5Container from "@/components/P5Container";
 import useWindowSize from "@/hooks/useWindowSize";
 
-const BALLS_AMOUNT = 10;
+const BALLS_AMOUNT = 100;
 const BALL_DIAMETER = 40;
 
 const MAX_VELOCITY = 10;
