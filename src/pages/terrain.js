@@ -31,9 +31,9 @@ const TerrainPage = () => {
 
         p5.noFill();
         p5.translate(-windowSize.width / 2, -windowSize.height / 2);
-        p5.rotateX(p5.PI / 4.0);
+        p5.rotateX(p5.PI / 3.0);
         //p5.translate(-windowSize.width * 1.25, -windowSize.height * 5, -500);
-        p5.translate(windowSize.width / 5, -windowSize.height / 2, -50);
+        p5.translate(windowSize.width / 5, -windowSize.height / 2, -200);
         flying.current -= 0.01;
         let yoff = flying.current;
         for (let y = 0; y < cols; y++) {
@@ -43,10 +43,10 @@ const TerrainPage = () => {
                     p5.noise(xoff, yoff),
                     0,
                     1,
-                    -50,
-                    50
+                    -75,
+                    75
                 );
-                xoff += 0.2;
+                xoff += 0.1;
             }
             yoff += 0.1;
         }
